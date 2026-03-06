@@ -1,0 +1,6 @@
+name=input("enter your name :")
+email=input("enter your email :")
+phoneno=input("enter your phone no :")
+print(f"name is {name}")
+print(f"mail id is {email}")
+print(f"phoneno {phoneno}")
