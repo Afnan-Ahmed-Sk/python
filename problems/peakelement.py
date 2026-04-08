@@ -8,7 +8,7 @@ for i in range(n):
     if i==0:
         if list[i]>=list[i+1]:
             print(f"peak {list[i]}")
-    elif i==n:
+    elif i==n-1:
         if list[n-1]>=list[n-2]:
             print(f"peak {list[i]}")        
     else:
